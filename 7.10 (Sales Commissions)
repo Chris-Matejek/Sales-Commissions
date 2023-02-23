@@ -1,0 +1,32 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Paul
+ */
+public class SalesCommissions {
+    public static void main(String[] args){
+        int[] array = new int[10];
+        System.out.println ("Sales Ranges:");
+        
+        for (int conter =0; counter <array.length; counter++){
+            if (counter == 10){
+                System.out.printf("%9d: ", 100);
+               
+            }
+            else {
+                System.out.printf("%02d-%02d: ", counter * 10, counter * 10 + 9);
+                
+                
+            }
+            for (int stars = 0; stars < array[counter]; stars++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    
+}
